@@ -1,0 +1,18 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px ;
+    }
+
+    .main-movie .overview{
+        width: 100%;
+    }
+
+    .btn-div{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        width: 200px;
+    }
+}

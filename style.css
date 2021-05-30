@@ -1,0 +1,194 @@
+:root{
+    --myRed:#E50914;
+    --myBlack:#141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-color: var(--myBlack);
+    color: #FFF;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    color: var(--myRed);
+    margin-left: 10px;
+    font-family: 'Bebas Neue', Times;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+header nav{
+    margin-right: 10px;
+}
+
+header nav a{
+    font-size: 14px;
+    color: #AAA;
+    margin: 8px;
+}
+
+header nav a:hover{
+    color:#FFF;
+}
+
+header nav a:active{
+    color: var(--myRed);
+}
+
+/* header nav a:enabled{
+    color: var(--myRed);
+} */
+
+/* main movie */
+.main-movie{
+    font-size: 14px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url(./img/capa-house-of-cards.jpg);
+    width: 100%;
+    height: 610px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-movie .title{
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+.main-movie .overview{
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 8%;
+    line-height: 25px;
+}
+
+.btn i{
+    margin-right: 5px;
+}
+
+.btn{
+    cursor: pointer;
+    background-color:rgba(0,0,0,.50);
+    border:1px rgba(0,0,0,.20) solid;
+    color: white;
+    padding: 15px 30px;
+    margin: 8px;
+    transition: 0.5s ease all;
+    font-size: 14px;
+}
+
+.btn:hover{
+    border:1px white solid;
+}
+
+.container{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.box-movie{
+    width:100% ;
+    height: 100%;
+}
+
+.carousel-movies{
+    margin-top: 5px;
+}
+
+.item{
+    border: 2px #141414 solid;
+}
+
+.item:hover{
+    border: 2px white solid;
+    transition: 1s ease all;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list hr{
+    width: 20%;
+}
+
+.my-list{
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    color: var(--myRed);
+    margin: 20px;
+}
+
+.random{
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(to right, #05397C,#D7141C);
+    font-family: 'Padauk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.writing{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.random-title{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.random-paragraph{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.random-btn{
+    cursor: pointer;
+    background:white ;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.random-btn i{
+    margin-right: 5px;
+    color: var(--myBlack);
+}
+
+.random-btn a{
+    color: var(--myBlack);
+    font-weight: 800;
+}
+
+.random-btn:hover{
+    background-color: rgba(255,255,255,.50);
+    transition: 0.5s ease all;
+}
